@@ -1,0 +1,3853 @@
+#!MC 1410
+$!CreateColorMap 
+  Name = 'cmocean - thermal'
+  NumControlPoints = 13
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 3
+      G = 35
+      B = 51
+      }
+    TrailRGB
+      {
+      R = 3
+      G = 35
+      B = 51
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 15
+      G = 49
+      B = 105
+      }
+    TrailRGB
+      {
+      R = 15
+      G = 49
+      B = 105
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.15
+    LeadRGB
+      {
+      R = 35
+      G = 51
+      B = 140
+      }
+    TrailRGB
+      {
+      R = 35
+      G = 51
+      B = 140
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 63
+      G = 51
+      B = 159
+      }
+    TrailRGB
+      {
+      R = 63
+      G = 51
+      B = 159
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 103
+      G = 67
+      B = 150
+      }
+    TrailRGB
+      {
+      R = 103
+      G = 67
+      B = 150
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 138
+      G = 82
+      B = 140
+      }
+    TrailRGB
+      {
+      R = 138
+      G = 82
+      B = 140
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 176
+      G = 95
+      B = 129
+      }
+    TrailRGB
+      {
+      R = 176
+      G = 95
+      B = 129
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 213
+      G = 107
+      B = 108
+      }
+    TrailRGB
+      {
+      R = 213
+      G = 107
+      B = 108
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 242
+      G = 130
+      B = 76
+      }
+    TrailRGB
+      {
+      R = 242
+      G = 130
+      B = 76
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 251
+      G = 165
+      B = 60
+      }
+    TrailRGB
+      {
+      R = 251
+      G = 165
+      B = 60
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 0.85
+    LeadRGB
+      {
+      R = 250
+      G = 186
+      B = 62
+      }
+    TrailRGB
+      {
+      R = 250
+      G = 186
+      B = 62
+      }
+    }
+  ControlPoint 12
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 246
+      G = 208
+      B = 69
+      }
+    TrailRGB
+      {
+      R = 246
+      G = 208
+      B = 69
+      }
+    }
+  ControlPoint 13
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 231
+      G = 250
+      B = 90
+      }
+    TrailRGB
+      {
+      R = 231
+      G = 250
+      B = 90
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - haline'
+  NumControlPoints = 13
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 41
+      G = 24
+      B = 107
+      }
+    TrailRGB
+      {
+      R = 41
+      G = 24
+      B = 107
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 40
+      G = 39
+      B = 162
+      }
+    TrailRGB
+      {
+      R = 40
+      G = 39
+      B = 162
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.15
+    LeadRGB
+      {
+      R = 24
+      G = 61
+      B = 158
+      }
+    TrailRGB
+      {
+      R = 24
+      G = 61
+      B = 158
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 12
+      G = 77
+      B = 150
+      }
+    TrailRGB
+      {
+      R = 12
+      G = 77
+      B = 150
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 24
+      G = 102
+      B = 140
+      }
+    TrailRGB
+      {
+      R = 24
+      G = 102
+      B = 140
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 44
+      G = 124
+      B = 136
+      }
+    TrailRGB
+      {
+      R = 44
+      G = 124
+      B = 136
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 59
+      G = 147
+      B = 135
+      }
+    TrailRGB
+      {
+      R = 59
+      G = 147
+      B = 135
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 74
+      G = 169
+      B = 128
+      }
+    TrailRGB
+      {
+      R = 74
+      G = 169
+      B = 128
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 100
+      G = 193
+      B = 113
+      }
+    TrailRGB
+      {
+      R = 100
+      G = 193
+      B = 113
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 148
+      G = 211
+      B = 93
+      }
+    TrailRGB
+      {
+      R = 148
+      G = 211
+      B = 93
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 0.85
+    LeadRGB
+      {
+      R = 179
+      G = 217
+      B = 94
+      }
+    TrailRGB
+      {
+      R = 179
+      G = 217
+      B = 94
+      }
+    }
+  ControlPoint 12
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 208
+      G = 224
+      B = 109
+      }
+    TrailRGB
+      {
+      R = 208
+      G = 224
+      B = 109
+      }
+    }
+  ControlPoint 13
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 253
+      G = 238
+      B = 153
+      }
+    TrailRGB
+      {
+      R = 253
+      G = 238
+      B = 153
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - solar'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 51
+      G = 19
+      B = 23
+      }
+    TrailRGB
+      {
+      R = 51
+      G = 19
+      B = 23
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 82
+      G = 29
+      B = 33
+      }
+    TrailRGB
+      {
+      R = 82
+      G = 29
+      B = 33
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 114
+      G = 38
+      B = 36
+      }
+    TrailRGB
+      {
+      R = 114
+      G = 38
+      B = 36
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 142
+      G = 52
+      B = 30
+      }
+    TrailRGB
+      {
+      R = 142
+      G = 52
+      B = 30
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 164
+      G = 74
+      B = 23
+      }
+    TrailRGB
+      {
+      R = 164
+      G = 74
+      B = 23
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 182
+      G = 100
+      B = 19
+      }
+    TrailRGB
+      {
+      R = 182
+      G = 100
+      B = 19
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 195
+      G = 127
+      B = 20
+      }
+    TrailRGB
+      {
+      R = 195
+      G = 127
+      B = 20
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 207
+      G = 156
+      B = 29
+      }
+    TrailRGB
+      {
+      R = 207
+      G = 156
+      B = 29
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 215
+      G = 186
+      B = 42
+      }
+    TrailRGB
+      {
+      R = 215
+      G = 186
+      B = 42
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 221
+      G = 219
+      B = 58
+      }
+    TrailRGB
+      {
+      R = 221
+      G = 219
+      B = 58
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 224
+      G = 253
+      B = 74
+      }
+    TrailRGB
+      {
+      R = 224
+      G = 253
+      B = 74
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - ice'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 3
+      G = 5
+      B = 18
+      }
+    TrailRGB
+      {
+      R = 3
+      G = 5
+      B = 18
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 27
+      G = 26
+      B = 54
+      }
+    TrailRGB
+      {
+      R = 27
+      G = 26
+      B = 54
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 48
+      G = 46
+      B = 95
+      }
+    TrailRGB
+      {
+      R = 48
+      G = 46
+      B = 95
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 60
+      G = 66
+      B = 136
+      }
+    TrailRGB
+      {
+      R = 60
+      G = 66
+      B = 136
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 62
+      G = 93
+      B = 168
+      }
+    TrailRGB
+      {
+      R = 62
+      G = 93
+      B = 168
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 66
+      G = 122
+      B = 183
+      }
+    TrailRGB
+      {
+      R = 66
+      G = 122
+      B = 183
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 82
+      G = 149
+      B = 192
+      }
+    TrailRGB
+      {
+      R = 82
+      G = 149
+      B = 192
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 106
+      G = 177
+      B = 203
+      }
+    TrailRGB
+      {
+      R = 106
+      G = 177
+      B = 203
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 140
+      G = 203
+      B = 213
+      }
+    TrailRGB
+      {
+      R = 140
+      G = 203
+      B = 213
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 188
+      G = 227
+      B = 230
+      }
+    TrailRGB
+      {
+      R = 188
+      G = 227
+      B = 230
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 234
+      G = 252
+      B = 253
+      }
+    TrailRGB
+      {
+      R = 234
+      G = 252
+      B = 253
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - gray'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 0
+      G = 0
+      B = 0
+      }
+    TrailRGB
+      {
+      R = 0
+      G = 0
+      B = 0
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 18
+      G = 18
+      B = 18
+      }
+    TrailRGB
+      {
+      R = 18
+      G = 18
+      B = 18
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 43
+      G = 43
+      B = 42
+      }
+    TrailRGB
+      {
+      R = 43
+      G = 43
+      B = 42
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 66
+      G = 65
+      B = 65
+      }
+    TrailRGB
+      {
+      R = 66
+      G = 65
+      B = 65
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 89
+      G = 89
+      B = 88
+      }
+    TrailRGB
+      {
+      R = 89
+      G = 89
+      B = 88
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 113
+      G = 113
+      B = 112
+      }
+    TrailRGB
+      {
+      R = 113
+      G = 113
+      B = 112
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 137
+      G = 137
+      B = 136
+      }
+    TrailRGB
+      {
+      R = 137
+      G = 137
+      B = 136
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 164
+      G = 163
+      B = 163
+      }
+    TrailRGB
+      {
+      R = 164
+      G = 163
+      B = 163
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 191
+      G = 191
+      B = 190
+      }
+    TrailRGB
+      {
+      R = 191
+      G = 191
+      B = 190
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 222
+      G = 222
+      B = 220
+      }
+    TrailRGB
+      {
+      R = 222
+      G = 222
+      B = 220
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 254
+      G = 254
+      B = 253
+      }
+    TrailRGB
+      {
+      R = 254
+      G = 254
+      B = 253
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - oxy'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 63
+      G = 5
+      B = 5
+      }
+    TrailRGB
+      {
+      R = 63
+      G = 5
+      B = 5
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 105
+      G = 6
+      B = 14
+      }
+    TrailRGB
+      {
+      R = 105
+      G = 6
+      B = 14
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 79
+      G = 79
+      B = 78
+      }
+    TrailRGB
+      {
+      R = 142
+      G = 24
+      B = 7
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 102
+      G = 102
+      B = 101
+      }
+    TrailRGB
+      {
+      R = 102
+      G = 102
+      B = 101
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 128
+      G = 128
+      B = 127
+      }
+    TrailRGB
+      {
+      R = 128
+      G = 128
+      B = 127
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 154
+      G = 154
+      B = 153
+      }
+    TrailRGB
+      {
+      R = 154
+      G = 154
+      B = 153
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 182
+      G = 182
+      B = 181
+      }
+    TrailRGB
+      {
+      R = 182
+      G = 182
+      B = 181
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 213
+      G = 213
+      B = 211
+      }
+    TrailRGB
+      {
+      R = 213
+      G = 213
+      B = 211
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 247
+      G = 254
+      B = 104
+      }
+    TrailRGB
+      {
+      R = 244
+      G = 244
+      B = 242
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 231
+      G = 214
+      B = 44
+      }
+    TrailRGB
+      {
+      R = 231
+      G = 214
+      B = 44
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 220
+      G = 174
+      B = 25
+      }
+    TrailRGB
+      {
+      R = 220
+      G = 174
+      B = 25
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - deep'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 253
+      G = 253
+      B = 204
+      }
+    TrailRGB
+      {
+      R = 253
+      G = 253
+      B = 204
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 201
+      G = 235
+      B = 177
+      }
+    TrailRGB
+      {
+      R = 201
+      G = 235
+      B = 177
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 145
+      G = 216
+      B = 163
+      }
+    TrailRGB
+      {
+      R = 145
+      G = 216
+      B = 163
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 102
+      G = 194
+      B = 163
+      }
+    TrailRGB
+      {
+      R = 102
+      G = 194
+      B = 163
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 81
+      G = 168
+      B = 162
+      }
+    TrailRGB
+      {
+      R = 81
+      G = 168
+      B = 162
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 72
+      G = 141
+      B = 157
+      }
+    TrailRGB
+      {
+      R = 72
+      G = 141
+      B = 157
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 64
+      G = 117
+      B = 152
+      }
+    TrailRGB
+      {
+      R = 64
+      G = 117
+      B = 152
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 61
+      G = 90
+      B = 146
+      }
+    TrailRGB
+      {
+      R = 61
+      G = 90
+      B = 146
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 65
+      G = 64
+      B = 123
+      }
+    TrailRGB
+      {
+      R = 65
+      G = 64
+      B = 123
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 55
+      G = 44
+      B = 80
+      }
+    TrailRGB
+      {
+      R = 55
+      G = 44
+      B = 80
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 39
+      G = 26
+      B = 44
+      }
+    TrailRGB
+      {
+      R = 39
+      G = 26
+      B = 44
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - dense'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 230
+      G = 240
+      B = 240
+      }
+    TrailRGB
+      {
+      R = 230
+      G = 240
+      B = 240
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 187
+      G = 220
+      B = 228
+      }
+    TrailRGB
+      {
+      R = 187
+      G = 220
+      B = 228
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 149
+      G = 197
+      B = 226
+      }
+    TrailRGB
+      {
+      R = 149
+      G = 197
+      B = 226
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 123
+      G = 173
+      B = 227
+      }
+    TrailRGB
+      {
+      R = 123
+      G = 173
+      B = 227
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 115
+      G = 144
+      B = 227
+      }
+    TrailRGB
+      {
+      R = 115
+      G = 144
+      B = 227
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 119
+      G = 113
+      B = 213
+      }
+    TrailRGB
+      {
+      R = 119
+      G = 113
+      B = 213
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 120
+      G = 84
+      B = 186
+      }
+    TrailRGB
+      {
+      R = 120
+      G = 84
+      B = 186
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 115
+      G = 57
+      B = 151
+      }
+    TrailRGB
+      {
+      R = 115
+      G = 57
+      B = 151
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 103
+      G = 35
+      B = 112
+      }
+    TrailRGB
+      {
+      R = 103
+      G = 35
+      B = 112
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 82
+      G = 20
+      B = 69
+      }
+    TrailRGB
+      {
+      R = 82
+      G = 20
+      B = 69
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 54
+      G = 14
+      B = 36
+      }
+    TrailRGB
+      {
+      R = 54
+      G = 14
+      B = 36
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - algae'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 214
+      G = 249
+      B = 207
+      }
+    TrailRGB
+      {
+      R = 214
+      G = 249
+      B = 207
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 183
+      G = 226
+      B = 171
+      }
+    TrailRGB
+      {
+      R = 183
+      G = 226
+      B = 171
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 149
+      G = 205
+      B = 137
+      }
+    TrailRGB
+      {
+      R = 149
+      G = 205
+      B = 137
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 114
+      G = 186
+      B = 108
+      }
+    TrailRGB
+      {
+      R = 114
+      G = 186
+      B = 108
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 67
+      G = 168
+      B = 85
+      }
+    TrailRGB
+      {
+      R = 67
+      G = 168
+      B = 85
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 17
+      G = 147
+      B = 79
+      }
+    TrailRGB
+      {
+      R = 17
+      G = 147
+      B = 79
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 9
+      G = 125
+      B = 74
+      }
+    TrailRGB
+      {
+      R = 9
+      G = 125
+      B = 74
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 21
+      G = 102
+      B = 64
+      }
+    TrailRGB
+      {
+      R = 21
+      G = 102
+      B = 64
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 25
+      G = 80
+      B = 52
+      }
+    TrailRGB
+      {
+      R = 25
+      G = 80
+      B = 52
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 24
+      G = 57
+      B = 36
+      }
+    TrailRGB
+      {
+      R = 24
+      G = 57
+      B = 36
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 17
+      G = 36
+      B = 20
+      }
+    TrailRGB
+      {
+      R = 17
+      G = 36
+      B = 20
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - matter'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 253
+      G = 237
+      B = 176
+      }
+    TrailRGB
+      {
+      R = 253
+      G = 237
+      B = 176
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 250
+      G = 202
+      B = 143
+      }
+    TrailRGB
+      {
+      R = 250
+      G = 202
+      B = 143
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 245
+      G = 166
+      B = 114
+      }
+    TrailRGB
+      {
+      R = 245
+      G = 166
+      B = 114
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 238
+      G = 132
+      B = 93
+      }
+    TrailRGB
+      {
+      R = 238
+      G = 132
+      B = 93
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 226
+      G = 97
+      B = 82
+      }
+    TrailRGB
+      {
+      R = 226
+      G = 97
+      B = 82
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 206
+      G = 67
+      B = 86
+      }
+    TrailRGB
+      {
+      R = 206
+      G = 67
+      B = 86
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 179
+      G = 46
+      B = 94
+      }
+    TrailRGB
+      {
+      R = 179
+      G = 46
+      B = 94
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 147
+      G = 31
+      B = 99
+      }
+    TrailRGB
+      {
+      R = 147
+      G = 31
+      B = 99
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 114
+      G = 25
+      B = 95
+      }
+    TrailRGB
+      {
+      R = 114
+      G = 25
+      B = 95
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 79
+      G = 21
+      B = 82
+      }
+    TrailRGB
+      {
+      R = 79
+      G = 21
+      B = 82
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 47
+      G = 15
+      B = 61
+      }
+    TrailRGB
+      {
+      R = 47
+      G = 15
+      B = 61
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - turbid'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 232
+      G = 245
+      B = 171
+      }
+    TrailRGB
+      {
+      R = 232
+      G = 245
+      B = 171
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 219
+      G = 216
+      B = 135
+      }
+    TrailRGB
+      {
+      R = 219
+      G = 216
+      B = 135
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 207
+      G = 187
+      B = 101
+      }
+    TrailRGB
+      {
+      R = 207
+      G = 187
+      B = 101
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 195
+      G = 160
+      B = 77
+      }
+    TrailRGB
+      {
+      R = 195
+      G = 160
+      B = 77
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 180
+      G = 134
+      B = 63
+      }
+    TrailRGB
+      {
+      R = 180
+      G = 134
+      B = 63
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 161
+      G = 111
+      B = 59
+      }
+    TrailRGB
+      {
+      R = 161
+      G = 111
+      B = 59
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 138
+      G = 93
+      B = 57
+      }
+    TrailRGB
+      {
+      R = 138
+      G = 93
+      B = 57
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 111
+      G = 76
+      B = 54
+      }
+    TrailRGB
+      {
+      R = 111
+      G = 76
+      B = 54
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 85
+      G = 62
+      B = 48
+      }
+    TrailRGB
+      {
+      R = 85
+      G = 62
+      B = 48
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 59
+      G = 46
+      B = 38
+      }
+    TrailRGB
+      {
+      R = 59
+      G = 46
+      B = 38
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 34
+      G = 30
+      B = 27
+      }
+    TrailRGB
+      {
+      R = 34
+      G = 30
+      B = 27
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - speed'
+  NumControlPoints = 13
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 254
+      G = 252
+      B = 205
+      }
+    TrailRGB
+      {
+      R = 254
+      G = 252
+      B = 205
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 238
+      G = 223
+      B = 151
+      }
+    TrailRGB
+      {
+      R = 238
+      G = 223
+      B = 151
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.15
+    LeadRGB
+      {
+      R = 228
+      G = 209
+      B = 123
+      }
+    TrailRGB
+      {
+      R = 228
+      G = 209
+      B = 123
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 216
+      G = 196
+      B = 95
+      }
+    TrailRGB
+      {
+      R = 216
+      G = 196
+      B = 95
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 184
+      G = 177
+      B = 46
+      }
+    TrailRGB
+      {
+      R = 184
+      G = 177
+      B = 46
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 141
+      G = 161
+      B = 11
+      }
+    TrailRGB
+      {
+      R = 141
+      G = 161
+      B = 11
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 95
+      G = 145
+      B = 12
+      }
+    TrailRGB
+      {
+      R = 95
+      G = 145
+      B = 12
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 50
+      G = 128
+      B = 30
+      }
+    TrailRGB
+      {
+      R = 50
+      G = 128
+      B = 30
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 14
+      G = 106
+      B = 42
+      }
+    TrailRGB
+      {
+      R = 14
+      G = 106
+      B = 42
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 15
+      G = 83
+      B = 44
+      }
+    TrailRGB
+      {
+      R = 15
+      G = 83
+      B = 44
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 0.85
+    LeadRGB
+      {
+      R = 21
+      G = 71
+      B = 40
+      }
+    TrailRGB
+      {
+      R = 21
+      G = 71
+      B = 40
+      }
+    }
+  ControlPoint 12
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 24
+      G = 58
+      B = 35
+      }
+    TrailRGB
+      {
+      R = 24
+      G = 58
+      B = 35
+      }
+    }
+  ControlPoint 13
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 23
+      G = 35
+      B = 18
+      }
+    TrailRGB
+      {
+      R = 23
+      G = 35
+      B = 18
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - amp'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 241
+      G = 236
+      B = 236
+      }
+    TrailRGB
+      {
+      R = 241
+      G = 236
+      B = 236
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 229
+      G = 207
+      B = 200
+      }
+    TrailRGB
+      {
+      R = 229
+      G = 207
+      B = 200
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 219
+      G = 177
+      B = 163
+      }
+    TrailRGB
+      {
+      R = 219
+      G = 177
+      B = 163
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 211
+      G = 148
+      B = 127
+      }
+    TrailRGB
+      {
+      R = 211
+      G = 148
+      B = 127
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 201
+      G = 119
+      B = 91
+      }
+    TrailRGB
+      {
+      R = 201
+      G = 119
+      B = 91
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 191
+      G = 88
+      B = 58
+      }
+    TrailRGB
+      {
+      R = 191
+      G = 88
+      B = 58
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 179
+      G = 55
+      B = 38
+      }
+    TrailRGB
+      {
+      R = 179
+      G = 55
+      B = 38
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 157
+      G = 24
+      B = 38
+      }
+    TrailRGB
+      {
+      R = 157
+      G = 24
+      B = 38
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 126
+      G = 13
+      B = 41
+      }
+    TrailRGB
+      {
+      R = 126
+      G = 13
+      B = 41
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 92
+      G = 14
+      B = 32
+      }
+    TrailRGB
+      {
+      R = 92
+      G = 14
+      B = 32
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 60
+      G = 9
+      B = 17
+      }
+    TrailRGB
+      {
+      R = 60
+      G = 9
+      B = 17
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - tempo'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 254
+      G = 245
+      B = 244
+      }
+    TrailRGB
+      {
+      R = 254
+      G = 245
+      B = 244
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 220
+      G = 223
+      B = 207
+      }
+    TrailRGB
+      {
+      R = 220
+      G = 223
+      B = 207
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 181
+      G = 202
+      B = 175
+      }
+    TrailRGB
+      {
+      R = 181
+      G = 202
+      B = 175
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 141
+      G = 184
+      B = 150
+      }
+    TrailRGB
+      {
+      R = 141
+      G = 184
+      B = 150
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 93
+      G = 167
+      B = 134
+      }
+    TrailRGB
+      {
+      R = 93
+      G = 167
+      B = 134
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 42
+      G = 147
+      B = 127
+      }
+    TrailRGB
+      {
+      R = 42
+      G = 147
+      B = 127
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 16
+      G = 125
+      B = 121
+      }
+    TrailRGB
+      {
+      R = 16
+      G = 125
+      B = 121
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 23
+      G = 100
+      B = 110
+      }
+    TrailRGB
+      {
+      R = 23
+      G = 100
+      B = 110
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 28
+      G = 77
+      B = 96
+      }
+    TrailRGB
+      {
+      R = 28
+      G = 77
+      B = 96
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 26
+      G = 53
+      B = 81
+      }
+    TrailRGB
+      {
+      R = 26
+      G = 53
+      B = 81
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 20
+      G = 29
+      B = 67
+      }
+    TrailRGB
+      {
+      R = 20
+      G = 29
+      B = 67
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - phase'
+  NumControlPoints = 21
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 167
+      G = 119
+      B = 12
+      }
+    TrailRGB
+      {
+      R = 167
+      G = 119
+      B = 12
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.05
+    LeadRGB
+      {
+      R = 184
+      G = 108
+      B = 33
+      }
+    TrailRGB
+      {
+      R = 184
+      G = 108
+      B = 33
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 199
+      G = 93
+      B = 54
+      }
+    TrailRGB
+      {
+      R = 199
+      G = 93
+      B = 54
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.15
+    LeadRGB
+      {
+      R = 211
+      G = 78
+      B = 78
+      }
+    TrailRGB
+      {
+      R = 211
+      G = 78
+      B = 78
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 220
+      G = 59
+      B = 109
+      }
+    TrailRGB
+      {
+      R = 220
+      G = 59
+      B = 109
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.25
+    LeadRGB
+      {
+      R = 222
+      G = 42
+      B = 147
+      }
+    TrailRGB
+      {
+      R = 222
+      G = 42
+      B = 147
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 216
+      G = 38
+      B = 184
+      }
+    TrailRGB
+      {
+      R = 216
+      G = 38
+      B = 184
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.35
+    LeadRGB
+      {
+      R = 202
+      G = 53
+      B = 217
+      }
+    TrailRGB
+      {
+      R = 202
+      G = 53
+      B = 217
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 181
+      G = 75
+      B = 236
+      }
+    TrailRGB
+      {
+      R = 181
+      G = 75
+      B = 236
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.45
+    LeadRGB
+      {
+      R = 156
+      G = 96
+      B = 243
+      }
+    TrailRGB
+      {
+      R = 156
+      G = 96
+      B = 243
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 125
+      G = 114
+      B = 240
+      }
+    TrailRGB
+      {
+      R = 125
+      G = 114
+      B = 240
+      }
+    }
+  ControlPoint 12
+    {
+    ColorMapFraction = 0.55
+    LeadRGB
+      {
+      R = 93
+      G = 128
+      B = 226
+      }
+    TrailRGB
+      {
+      R = 93
+      G = 128
+      B = 226
+      }
+    }
+  ControlPoint 13
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 58
+      G = 139
+      B = 202
+      }
+    TrailRGB
+      {
+      R = 58
+      G = 139
+      B = 202
+      }
+    }
+  ControlPoint 14
+    {
+    ColorMapFraction = 0.65
+    LeadRGB
+      {
+      R = 34
+      G = 146
+      B = 175
+      }
+    TrailRGB
+      {
+      R = 34
+      G = 146
+      B = 175
+      }
+    }
+  ControlPoint 15
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 22
+      G = 149
+      B = 150
+      }
+    TrailRGB
+      {
+      R = 22
+      G = 149
+      B = 150
+      }
+    }
+  ControlPoint 16
+    {
+    ColorMapFraction = 0.75
+    LeadRGB
+      {
+      R = 11
+      G = 152
+      B = 123
+      }
+    TrailRGB
+      {
+      R = 11
+      G = 152
+      B = 123
+      }
+    }
+  ControlPoint 17
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 25
+      G = 154
+      B = 93
+      }
+    TrailRGB
+      {
+      R = 25
+      G = 154
+      B = 93
+      }
+    }
+  ControlPoint 18
+    {
+    ColorMapFraction = 0.85
+    LeadRGB
+      {
+      R = 67
+      G = 151
+      B = 53
+      }
+    TrailRGB
+      {
+      R = 67
+      G = 151
+      B = 53
+      }
+    }
+  ControlPoint 19
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 113
+      G = 142
+      B = 19
+      }
+    TrailRGB
+      {
+      R = 113
+      G = 142
+      B = 19
+      }
+    }
+  ControlPoint 20
+    {
+    ColorMapFraction = 0.95
+    LeadRGB
+      {
+      R = 145
+      G = 131
+      B = 13
+      }
+    TrailRGB
+      {
+      R = 145
+      G = 131
+      B = 13
+      }
+    }
+  ControlPoint 21
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 167
+      G = 119
+      B = 12
+      }
+    TrailRGB
+      {
+      R = 167
+      G = 119
+      B = 12
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - balance'
+  NumControlPoints = 13
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 23
+      G = 28
+      B = 66
+      }
+    TrailRGB
+      {
+      R = 23
+      G = 28
+      B = 66
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 41
+      G = 61
+      B = 150
+      }
+    TrailRGB
+      {
+      R = 41
+      G = 61
+      B = 150
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.15
+    LeadRGB
+      {
+      R = 21
+      G = 84
+      B = 188
+      }
+    TrailRGB
+      {
+      R = 21
+      G = 84
+      B = 188
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 21
+      G = 112
+      B = 187
+      }
+    TrailRGB
+      {
+      R = 21
+      G = 112
+      B = 187
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 89
+      G = 155
+      B = 186
+      }
+    TrailRGB
+      {
+      R = 89
+      G = 155
+      B = 186
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 169
+      G = 194
+      B = 202
+      }
+    TrailRGB
+      {
+      R = 169
+      G = 194
+      B = 202
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 240
+      G = 236
+      B = 235
+      }
+    TrailRGB
+      {
+      R = 240
+      G = 236
+      B = 235
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 219
+      G = 177
+      B = 163
+      }
+    TrailRGB
+      {
+      R = 219
+      G = 177
+      B = 163
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 201
+      G = 118
+      B = 90
+      }
+    TrailRGB
+      {
+      R = 201
+      G = 118
+      B = 90
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 179
+      G = 56
+      B = 38
+      }
+    TrailRGB
+      {
+      R = 179
+      G = 56
+      B = 38
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 0.85
+    LeadRGB
+      {
+      R = 157
+      G = 25
+      B = 38
+      }
+    TrailRGB
+      {
+      R = 157
+      G = 25
+      B = 38
+      }
+    }
+  ControlPoint 12
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 125
+      G = 13
+      B = 41
+      }
+    TrailRGB
+      {
+      R = 125
+      G = 13
+      B = 41
+      }
+    }
+  ControlPoint 13
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 60
+      G = 9
+      B = 17
+      }
+    TrailRGB
+      {
+      R = 60
+      G = 9
+      B = 17
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - delta'
+  NumControlPoints = 14
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 16
+      G = 31
+      B = 63
+      }
+    TrailRGB
+      {
+      R = 16
+      G = 31
+      B = 63
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 35
+      G = 66
+      B = 150
+      }
+    TrailRGB
+      {
+      R = 35
+      G = 66
+      B = 150
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.15
+    LeadRGB
+      {
+      R = 26
+      G = 94
+      B = 158
+      }
+    TrailRGB
+      {
+      R = 26
+      G = 94
+      B = 158
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 34
+      G = 120
+      B = 163
+      }
+    TrailRGB
+      {
+      R = 34
+      G = 120
+      B = 163
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 76
+      G = 167
+      B = 174
+      }
+    TrailRGB
+      {
+      R = 76
+      G = 167
+      B = 174
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 172
+      G = 206
+      B = 197
+      }
+    TrailRGB
+      {
+      R = 172
+      G = 206
+      B = 197
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.498
+    LeadRGB
+      {
+      R = 253
+      G = 250
+      B = 229
+      }
+    TrailRGB
+      {
+      R = 253
+      G = 250
+      B = 229
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 254
+      G = 252
+      B = 203
+      }
+    TrailRGB
+      {
+      R = 254
+      G = 252
+      B = 203
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 216
+      G = 197
+      B = 96
+      }
+    TrailRGB
+      {
+      R = 216
+      G = 197
+      B = 96
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 140
+      G = 161
+      B = 10
+      }
+    TrailRGB
+      {
+      R = 140
+      G = 161
+      B = 10
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 50
+      G = 128
+      B = 30
+      }
+    TrailRGB
+      {
+      R = 50
+      G = 128
+      B = 30
+      }
+    }
+  ControlPoint 12
+    {
+    ColorMapFraction = 0.85
+    LeadRGB
+      {
+      R = 14
+      G = 106
+      B = 42
+      }
+    TrailRGB
+      {
+      R = 14
+      G = 106
+      B = 42
+      }
+    }
+  ControlPoint 13
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 16
+      G = 82
+      B = 43
+      }
+    TrailRGB
+      {
+      R = 16
+      G = 82
+      B = 43
+      }
+    }
+  ControlPoint 14
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 23
+      G = 35
+      B = 18
+      }
+    TrailRGB
+      {
+      R = 23
+      G = 35
+      B = 18
+      }
+    }
+$!CreateColorMap 
+  Name = 'cmocean - curl'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 20
+      G = 29
+      B = 67
+      }
+    TrailRGB
+      {
+      R = 20
+      G = 29
+      B = 67
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.1
+    LeadRGB
+      {
+      R = 28
+      G = 76
+      B = 96
+      }
+    TrailRGB
+      {
+      R = 28
+      G = 76
+      B = 96
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.2
+    LeadRGB
+      {
+      R = 16
+      G = 125
+      B = 121
+      }
+    TrailRGB
+      {
+      R = 16
+      G = 125
+      B = 121
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.3
+    LeadRGB
+      {
+      R = 92
+      G = 166
+      B = 133
+      }
+    TrailRGB
+      {
+      R = 92
+      G = 166
+      B = 133
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4
+    LeadRGB
+      {
+      R = 182
+      G = 202
+      B = 175
+      }
+    TrailRGB
+      {
+      R = 182
+      G = 202
+      B = 175
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.5
+    LeadRGB
+      {
+      R = 253
+      G = 245
+      B = 243
+      }
+    TrailRGB
+      {
+      R = 253
+      G = 245
+      B = 243
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.6
+    LeadRGB
+      {
+      R = 230
+      G = 183
+      B = 162
+      }
+    TrailRGB
+      {
+      R = 230
+      G = 183
+      B = 162
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.7
+    LeadRGB
+      {
+      R = 211
+      G = 118
+      B = 105
+      }
+    TrailRGB
+      {
+      R = 211
+      G = 118
+      B = 105
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.8
+    LeadRGB
+      {
+      R = 174
+      G = 63
+      B = 95
+      }
+    TrailRGB
+      {
+      R = 174
+      G = 63
+      B = 95
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.9
+    LeadRGB
+      {
+      R = 116
+      G = 25
+      B = 93
+      }
+    TrailRGB
+      {
+      R = 116
+      G = 25
+      B = 93
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 51
+      G = 13
+      B = 53
+      }
+    TrailRGB
+      {
+      R = 51
+      G = 13
+      B = 53
+      }
+    }
+$!CreateColorMap 
+  Name = 'Sequential - Viridis'
+  NumControlPoints = 11
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 68
+      G = 1
+      B = 84
+      }
+    TrailRGB
+      {
+      R = 68
+      G = 1
+      B = 84
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.08163
+    LeadRGB
+      {
+      R = 72
+      G = 31
+      B = 112
+      }
+    TrailRGB
+      {
+      R = 72
+      G = 31
+      B = 112
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.1837
+    LeadRGB
+      {
+      R = 67
+      G = 63
+      B = 133
+      }
+    TrailRGB
+      {
+      R = 67
+      G = 63
+      B = 133
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2857
+    LeadRGB
+      {
+      R = 54
+      G = 92
+      B = 141
+      }
+    TrailRGB
+      {
+      R = 54
+      G = 92
+      B = 141
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.3878
+    LeadRGB
+      {
+      R = 43
+      G = 117
+      B = 142
+      }
+    TrailRGB
+      {
+      R = 43
+      G = 117
+      B = 142
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.4898
+    LeadRGB
+      {
+      R = 33
+      G = 142
+      B = 141
+      }
+    TrailRGB
+      {
+      R = 33
+      G = 142
+      B = 141
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 0.5918
+    LeadRGB
+      {
+      R = 33
+      G = 166
+      B = 133
+      }
+    TrailRGB
+      {
+      R = 33
+      G = 166
+      B = 133
+      }
+    }
+  ControlPoint 8
+    {
+    ColorMapFraction = 0.6939
+    LeadRGB
+      {
+      R = 64
+      G = 189
+      B = 114
+      }
+    TrailRGB
+      {
+      R = 64
+      G = 189
+      B = 114
+      }
+    }
+  ControlPoint 9
+    {
+    ColorMapFraction = 0.7959
+    LeadRGB
+      {
+      R = 119
+      G = 209
+      B = 83
+      }
+    TrailRGB
+      {
+      R = 119
+      G = 209
+      B = 83
+      }
+    }
+  ControlPoint 10
+    {
+    ColorMapFraction = 0.898
+    LeadRGB
+      {
+      R = 186
+      G = 222
+      B = 40
+      }
+    TrailRGB
+      {
+      R = 186
+      G = 222
+      B = 40
+      }
+    }
+  ControlPoint 11
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 253
+      G = 231
+      B = 37
+      }
+    TrailRGB
+      {
+      R = 253
+      G = 231
+      B = 37
+      }
+    }
+$!CreateColorMap 
+  Name = 'Diverging - Blue/Yellow/Red modified (1)'
+  NumControlPoints = 7
+  ControlPoint 1
+    {
+    ColorMapFraction = 0
+    LeadRGB
+      {
+      R = 69
+      G = 117
+      B = 180
+      }
+    TrailRGB
+      {
+      R = 69
+      G = 117
+      B = 180
+      }
+    }
+  ControlPoint 2
+    {
+    ColorMapFraction = 0.07604
+    LeadRGB
+      {
+      R = 145
+      G = 191
+      B = 219
+      }
+    TrailRGB
+      {
+      R = 145
+      G = 191
+      B = 219
+      }
+    }
+  ControlPoint 3
+    {
+    ColorMapFraction = 0.1572
+    LeadRGB
+      {
+      R = 224
+      G = 243
+      B = 248
+      }
+    TrailRGB
+      {
+      R = 224
+      G = 243
+      B = 248
+      }
+    }
+  ControlPoint 4
+    {
+    ColorMapFraction = 0.2435
+    LeadRGB
+      {
+      R = 255
+      G = 255
+      B = 191
+      }
+    TrailRGB
+      {
+      R = 255
+      G = 255
+      B = 191
+      }
+    }
+  ControlPoint 5
+    {
+    ColorMapFraction = 0.4672
+    LeadRGB
+      {
+      R = 254
+      G = 224
+      B = 144
+      }
+    TrailRGB
+      {
+      R = 254
+      G = 224
+      B = 144
+      }
+    }
+  ControlPoint 6
+    {
+    ColorMapFraction = 0.7297
+    LeadRGB
+      {
+      R = 252
+      G = 141
+      B = 89
+      }
+    TrailRGB
+      {
+      R = 252
+      G = 141
+      B = 89
+      }
+    }
+  ControlPoint 7
+    {
+    ColorMapFraction = 1
+    LeadRGB
+      {
+      R = 215
+      G = 48
+      B = 39
+      }
+    TrailRGB
+      {
+      R = 215
+      G = 48
+      B = 39
+      }
+    }

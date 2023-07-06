@@ -1,0 +1,88 @@
+#!MC 1410
+$!SetStyleBase Factory
+$!PlotType  = XYLine
+$!Linking 
+  BetweenFrames
+    {
+    LinkSolutionTime = Yes
+    }
+$!FrameLayout 
+  ShowBorder = No
+  ShowHeader = No
+  IsTransparent = Yes
+  HeaderColor = Green
+  XYPos
+    {
+    X = 0.98098
+    Y = 0.27685
+    }
+  Width = 3.3546
+  Height = 2.1566
+$!ThreeDAxis 
+  AspectRatioLimit = 25
+  BoxAspectRatioLimit = 25
+$!GlobalTime 
+  SolutionTime = 15
+$!DeleteLineMaps 
+$!ActiveLineMaps  =  [1]
+$!GlobalLinePlot 
+  DataLabels
+    {
+    DistanceSkip = 5
+    }
+  Legend
+    {
+    XYPos
+      {
+      X = 95
+      }
+    }
+$!LineMap  [1]
+  Name = '&ZN&'
+  Assign
+    {
+    Zone = 1
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Red
+    }
+  Symbols
+    {
+    Color = Red
+    FillColor = Red
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!XYLineAxis 
+  DepXToYRatio = 1
+$!XYLineAxis 
+  XDetail 1
+    {
+    RangeMin = 0
+    RangeMax = 56.00560000000000116
+    GRSpacing = 10
+    MarkerGridline
+      {
+      Show = Yes
+      }
+    }
+$!XYLineAxis 
+  YDetail 1
+    {
+    RangeMin = -1.8586640502921265572
+    RangeMax = 0.15864777672888097371
+    GRSpacing = 0.5
+    }
+$!LinePlotLayers 
+  ShowSymbols = Yes
+$!SetStyleBase Config

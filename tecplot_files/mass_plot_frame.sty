@@ -1,0 +1,123 @@
+#!MC 1410
+$!SetStyleBase Factory
+$!PlotType  = XYLine
+$!Linking 
+  BetweenFrames
+    {
+    LinkSolutionTime = Yes
+    }
+$!FrameLayout 
+  ShowHeader = No
+  HeaderColor = Green
+  XYPos
+    {
+    X = 1.5214
+    Y = 3.0628
+    }
+  Width = 5.3342
+  Height = 3.0695
+$!ThreeDAxis 
+  AspectRatioLimit = 25
+  BoxAspectRatioLimit = 25
+$!GlobalTime 
+  SolutionTime = 0
+$!DeleteLineMaps 
+$!ActiveLineMaps  =  [1]
+$!GlobalLinePlot 
+  DataLabels
+    {
+    DistanceSkip = 5
+    }
+  Legend
+    {
+    XYPos
+      {
+      X = 95
+      }
+    }
+$!LineMap  [1]
+  Name = '&ZN&'
+  Assign
+    {
+    Zone = 1
+    XAxisVar = 1
+    YAxisVar = 2
+    }
+  Lines
+    {
+    Color = Red
+    }
+  Symbols
+    {
+    Color = Red
+    FillColor = Red
+    }
+  BarCharts
+    {
+    Color = Red
+    FillColor = Red
+    }
+  ErrorBars
+    {
+    Color = Red
+    }
+$!XYLineAxis 
+  DepXToYRatio = 1
+  ViewportPosition
+    {
+    X1 = 12.762
+    Y1 = 13.222
+    X2 = 87.762
+    Y2 = 90.222
+    }
+  ViewportTopSnapTarget = 90.2222222222
+$!XYLineAxis 
+  XDetail 1
+    {
+    RangeMin = 7
+    RangeMax = 56.004899999999999238
+    GRSpacing = 5
+    TickLabel
+      {
+      TextShape
+        {
+        Height = 4
+        }
+      }
+    MarkerGridline
+      {
+      Show = Yes
+      }
+    Title
+      {
+      TextShape
+        {
+        Height = 6
+        }
+      Offset = 6
+      }
+    }
+$!XYLineAxis 
+  YDetail 1
+    {
+    RangeMin = 1.7691064374825011818
+    RangeMax = 20.270092099432840627
+    GRSpacing = 5
+    TickLabel
+      {
+      TextShape
+        {
+        Height = 4
+        }
+      }
+    Title
+      {
+      TextShape
+        {
+        Height = 6
+        }
+      }
+    }
+$!LinePlotLayers 
+  ShowSymbols = Yes
+$!SetStyleBase Config
