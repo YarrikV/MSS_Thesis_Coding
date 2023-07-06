@@ -1,0 +1,3 @@
+#!MC 1410
+$!AlterData 
+  Equation = '{n_rel}=({n}[1] - {n}[2])/({n}[2])'

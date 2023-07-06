@@ -1,0 +1,3 @@
+#!MC 1410
+$!AlterData 
+  Equation = '{b_scaled}=abs({b})*{r}*{r}'

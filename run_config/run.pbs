@@ -1,0 +1,47 @@
+#!/bin/bash 
+#  
+#PBS -A default_project
+#
+#PBS -l nodes=4:ppn=36
+#  
+#PBS -l walltime=08:00:00
+# 
+#PBS -l pmem=2gb
+#
+#PBS -j oe 
+# 
+#PBS -N xxxxx 
+# 
+#PBS -m abe 
+# 
+#PBS -M yarrik.vanwalleghem@student.kuleuven.be
+
+# load all the necessary modules
+module purge
+module load Euhforia-GUI/.3.0_lua.lua
+
+​
+
+APP=heliosphere3.py
+NAME=xxxxx
+
+APP_DIR=$VSC_DATA/euhforia_feb/euhforia/run #Where EUHFORIA is installed
+EV_DIR=$VSC_DATA/euhforia_feb/euhforia/run/mass/$NAME
+WORK_DIR=$VSC_SCRATCH/euhforia_events/$NAME #Where output will be saved CHANGE TO SCRATCH!
+
+# Copy the files, jump to APP_DIR, and execute!
+
+mkdir -p $WORK_DIR
+mkdir -p $WORK_DIR/output
+mkdir -p $WORK_DIR/input
+
+#cp -R $EV_DIR/cmes.dat $WORK_DIR/input
+#cp -R $EV_DIR/helios.cfg $WORK_DIR/input
+#cp -R $EV_DIR/output/solar_wind_boundary.dat $WORK_DIR/input
+
+# jump to APP_DIR, and execute!
+cd $APP_DIR
+echo "$APP"
+
+mpirun -np 144 ./$APP --config-file $EV_DIR/helios.cfg > $WORK_DIR/log.txt
+

@@ -1,0 +1,7 @@
+#!MC 1410
+$!AlterData 
+  Equation = '{bz_over_by}={bz}/{by}'
+$!AlterData 
+  Equation = '{magnetic_field_ratio_xy}=sqrt({bx}**2+{by}**2)/abs({bz})'
+$!AlterData 
+  Equation = '{magnetic_field_ratio_xz}=sqrt({bx}**2+{bz}**2)/abs({by})'

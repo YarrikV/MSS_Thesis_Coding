@@ -1,0 +1,13 @@
+#!MC 1410
+$!AlterData 
+  Equation = '{B_sq_in_Tesla}={b}*{b}*10**(-18)'
+$!AlterData 
+  Equation = '{P_B}={B_sq_in_Tesla}/(2*12.56*10**(-7))'
+$!AlterData 
+  Equation = '{beta_unscaled}={P}/{P_B}'
+$!AlterData 
+  Equation = '{beta_unscaled_units}=10**17*{beta_unscaled}'
+$!AlterData 
+  Equation = '{beta_scaled}={r}*{r}*{beta_unscaled}'
+$!AlterData 
+  Equation = '{beta_Anwesha}={r}*{r}*(((4.16*10**(-5)*{T})+5.34)*{n}/{b}**2)'

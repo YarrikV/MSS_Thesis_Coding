@@ -1,0 +1,24 @@
+# CME event list
+# --------------------------------------------------------------------------
+# The two first parameters are always the CME type followed by the time at when
+# the CME reaches 0.1 AU. The remaining parameters depend on the model type.
+#
+# Cone CMEs
+# --------------------------------------------------------------------------
+# CME type   Time of CME at 0.1AU    Lat [deg HEEQ]  Lon [deg HEEQ]  Width/2 [deg]  Speed [km/s]  Mass Density [kg/m^3]   Temperature [K]
+#Cone         2012-07-12T19:24:00         -8.0         -4.0         38             1266.0       1e-18                    0.8e6
+
+# Spheromak CMEs
+# # --------------------------------------------------------------------------
+# # CME type   Time of CME at 0.1AU    Lat [deg HEEQ]  Lon [deg HEEQ]  Radius [Rsun]  Speed [km/s]  Mass Density [kg/m^3]   Temperature [K]   Helicity [1/-1]   Tilt [deg]   Flux [Wb]
+LFFSpheromak 2012-07-12T17:00:00 0 0 RADIUS 500 DENSITY 8.00e+5 -1.0 90 FLUX
+
+# FRi3D CMEs
+# # --------------------------------------------------------------------------
+# # CME type   Time of CME at 0.1AU    Lat [deg HEEQ]  Lon [deg HEEQ]  Speed [km/s]  Toroidal height [Rsun]  Width/2 [deg]  Height/2 [deg]  Tilt [deg]  Flattening [0.2-0.8]  Pancaking [0-1.0]  Twist  Flux [Wb]  Polarity [1/-1]  Helicity [1/-1]  Mass Density [kg/m^3]   Temperature [K] 
+
+# Note: Helicity is implemented with opposite convention in FRi3D i.e. LH is actually RH
+#
+#FRi3D 2012-06-14T16:55:00 0.00 0.00 650.00 15.76 30.00 20.00 0.00 0.50 0.50 1.00 -1.0 -1.0 1.00e+12 1.00e-18 8.00e+5
+
+~                                                                                                                      
